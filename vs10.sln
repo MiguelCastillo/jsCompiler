@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vs10", "vs10\vs10.csproj", "{0D654D9D-B7AA-411A-96F6-4A655E60BB12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsCompiler", "jsCompiler\jsCompiler.csproj", "{01580F38-B453-47BF-89A0-63F6F9085208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{17C0A7F5-FA59-4BB0-B281-0388B4D41998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "googClosure", "googClosure\googClosure.csproj", "{3A40DAB4-C7AA-440B-9450-E2FD539D241D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D654D9D-B7AA-411A-96F6-4A655E60BB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D654D9D-B7AA-411A-96F6-4A655E60BB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D654D9D-B7AA-411A-96F6-4A655E60BB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D654D9D-B7AA-411A-96F6-4A655E60BB12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01580F38-B453-47BF-89A0-63F6F9085208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01580F38-B453-47BF-89A0-63F6F9085208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01580F38-B453-47BF-89A0-63F6F9085208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01580F38-B453-47BF-89A0-63F6F9085208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C0A7F5-FA59-4BB0-B281-0388B4D41998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C0A7F5-FA59-4BB0-B281-0388B4D41998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C0A7F5-FA59-4BB0-B281-0388B4D41998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C0A7F5-FA59-4BB0-B281-0388B4D41998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A40DAB4-C7AA-440B-9450-E2FD539D241D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A40DAB4-C7AA-440B-9450-E2FD539D241D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A40DAB4-C7AA-440B-9450-E2FD539D241D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A40DAB4-C7AA-440B-9450-E2FD539D241D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
