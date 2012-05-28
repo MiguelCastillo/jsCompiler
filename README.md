@@ -7,7 +7,7 @@ A Visual Studio extension for Google Closure Compiler. It primaliry allows you t
 Downloads
 ==========
 
-Get latest: <a href="https://github.com/MiguelCastillo/jsCompiler/downloads/jsCompiler.vs10-latest.vsix">Latest</a>
+Get latest build: <a href="https://github.com/MiguelCastillo/jsCompiler/downloads/jsCompiler.vs10-latest.vsix">Latest</a>
 
 
 License
