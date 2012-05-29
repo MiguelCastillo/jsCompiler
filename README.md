@@ -4,6 +4,11 @@ jsCompiler
 A Visual Studio extension for Google Closure Compiler. It primaliry allows you to configure Google Closure Compiler to process your JavaScript, display the generated JavaScript and report errors and warnings found in your JavaScript code.
 
 
+Home
+==========
+<a href="http://miguelcastillo.github.com/jsCompiler">Take me home</a>
+
+
 Downloads
 ==========
 
