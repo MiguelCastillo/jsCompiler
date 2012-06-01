@@ -1,0 +1,244 @@
+/*
+* Layout
+*/
+
+.application
+{
+    padding: 0px;
+    padding-top: 217px;
+    padding-bottom: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.application > .header
+{
+    height: 217px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+    background: rgb(181,189,200); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(181,189,200,1)), color-stop(36%,rgba(130,140,149,1)), color-stop(100%,rgba(40,52,59,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* IE10+ */
+    background: linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+}
+
+.application > .body
+{
+    background: url("../lib/img/page-bg.png") repeat center top #f6f6f6;
+    background: none #E5E5E5;
+    color: #424242;
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+}
+
+.application > .body > .content
+{
+    font-size: 1.2em;
+    position: relative;
+    padding: 40px;
+}
+
+.application > .footer
+{
+    background: #212121;
+    color: White;
+    height: 100px;
+    width: 100%;
+}
+
+.application > .footer a
+{
+    color: White;
+}
+
+.layout-content
+{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+footer p
+{
+    color: #f2f2f2;
+}
+
+footer a
+{
+    text-decoration: underline;
+}
+
+footer a:hover
+{
+    color: #43adff;
+    text-shadow: #0090ff 0px 0px 2px;
+}
+
+
+#forkme_banner
+{
+    display: block;
+    position: absolute;
+    top:0;
+    right: 10px;
+    z-index: 10;
+    padding: 10px 50px 10px 10px;
+    color: #fff;
+    background: url('../img/blacktocat.png') #0090ff no-repeat 95% 50%;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+#project_title
+{
+    margin: 0;
+    padding-top: .4em;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    text-shadow: #111 0px 0px 10px;
+}
+
+#project_tagline
+{
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    background: none;
+    text-shadow: #111 0px 0px 10px;
+}
+
+
+#downloads > .content
+{
+    color: #0090FF;
+    width: 210px;
+    z-index: 10;
+    margin: .5em 0;
+}
+
+#downloads > .content .links > .content
+{
+    background: none white;
+}
+
+#downloads > .content .links .zip_download_link
+{
+    padding:0;
+    display: block;
+    float: right;
+    width: 90px;
+    height:70px;
+    text-indent: -5000px;
+    overflow: hidden;
+    background: url(../img/sprite_download.png) no-repeat bottom left;
+}
+
+#downloads > .content .links .zip_download_link:hover
+{
+    background: url(../img/sprite_download.png) no-repeat top left;
+}
+
+#downloads > .content .links .tar_download_link
+{
+    padding:0;
+    display: block;
+    float: right;
+    width: 90px;
+    height:70px;
+    text-indent: -5000px;
+    overflow: hidden;
+    background: url(../img/sprite_download.png) no-repeat bottom right;
+    margin-left: 10px;
+}
+
+#downloads > .content .links .tar_download_link:hover
+{
+    background: url(../img/sprite_download.png) no-repeat top right;
+}
+
+#downloads > .content .links > .header
+{
+    background: rgb(53,106,160); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(53,106,160,1) 0%, rgba(53,106,160,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(53,106,160,1)), color-stop(100%,rgba(53,106,160,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* IE10+ */
+    background: linear-gradient(top,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', endColorstr='#356aa0',GradientType=0 ); /* IE6-9 */
+
+    -webkit-box-shadow:  0px 2px 2px 2px rgba(92, 92, 92, 1);
+    box-shadow:  0px 2px 2px 2px rgba(92, 92, 92, 1);
+    color: white;
+    text-align: center;
+    margin-bottom: .2em;
+    padding-bottom: .2em;
+}
+
+#downloads > .content .links > .content
+{
+    padding-bottom: 1.5em;
+}
+
+#nav_menu
+{
+    display:none;
+    position:absolute;
+    z-index: 10;
+    bottom:-126px;
+    left:0;
+    font-size: 1.4em;
+    width: 100%;
+    font-weight: 700;
+}
+
+#nav_menu .menu
+{
+    background: rgb(53,106,160); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(53,106,160,1) 0%, rgba(53,106,160,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(53,106,160,1)), color-stop(100%,rgba(53,106,160,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* IE10+ */
+    background: linear-gradient(top,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', endColorstr='#356aa0',GradientType=0 ); /* IE6-9 */
+}
+
+#nav_menu .menu li > ul
+{
+    background: none #eeeeee;
+	border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+}
+
+#nav_menu .menu li > a:hover,
+#nav_menu .menu > li:hover,
+#nav_menu .menu ul > li:hover
+{
+	background: none transparent;
+}
+
+#nav_menu .menu li > a
+{
+	color: #eeeeee;
+}
+
+#nav_menu .menu > li:hover > a,
+#nav_menu .menu li > a:hover
+{
+    color: #ffffff;
+    text-shadow: 1px 1px #999999;
+}
+

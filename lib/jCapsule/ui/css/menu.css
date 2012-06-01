@@ -1,0 +1,132 @@
+﻿/********************************************
+* Menu
+*/
+
+.menu
+{
+    padding: 0 .5em;
+    margin: 0px;
+}
+
+.menu,
+.menu li > ul
+{
+	display: none;
+	position: relative;
+	width: 20em;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 2px 4px 0 #999999;
+}
+
+.menu li > ul
+{
+	position: absolute;
+	left: 19em;
+	top: -.2em;
+	width: 20em;
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu li:hover > ul
+{
+	display: block;
+}
+
+.menu > li,
+.menu ul > li
+{
+    position: relative;
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu li > a
+{
+    display: block;
+    padding: .3em .5em;
+    margin: 0;
+}
+
+.menu ul > li:first-child > a
+{
+    margin-top: .2em;
+}
+
+.menu ul > li:last-child > a
+{
+    margin-bottom: .2em;
+}
+
+
+/********************************************
+* Menu Navigation bar
+*/
+.menu.navbar
+{
+    display: block;
+    width: auto;
+}
+
+.menu.navbar > li
+{
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.menu.navbar > li > ul,
+.menu.navbar li > ul.absolute-left
+{
+	left: 0px;
+	right: auto;
+	top: 2em;
+	border-radius: 0px 5px 5px 5px;
+	-moz-border-radius: 0px 5px 5px 5px;
+}
+
+.menu.navbar li > ul.absolute-right
+{
+	left: auto;
+	right: 0px;
+	border-radius: 5px 0px 5px 5px;
+	-moz-border-radius: 5px 0px 5px 5px;
+	direction: ltr;
+}
+
+.menu.navbar ul.absolute-right > li
+{
+	direction: rtl;
+}
+
+.menu.navbar > li
+{
+    float: left;
+}
+
+.menu.navbar.float-right > li
+{
+    float: right;
+}
+
+.menu.navbar > li:first-child
+{
+    margin-left: .2em;
+}
+
+.menu.navbar > li:last-child
+{
+    margin-right: .2em;
+}
+
+/*clear fix for menu nav bar*/
+.menu.navbar:after
+{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+

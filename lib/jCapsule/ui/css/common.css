@@ -1,0 +1,75 @@
+/*
+* reference: http://www.positioniseverything.net/easyclearing.html
+*/
+.clearfix:after
+{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.auto-width
+{
+    width: auto !important;
+}
+
+.full-width
+{
+    width: 100%;
+}
+
+.absolute-right
+{
+    position: absolute !important;
+    right: 0px !important;
+    left: auto;
+}
+
+.absolute-left
+{
+    position: absolute !important;
+    right: auto;
+    left: 0px !important;
+}
+
+.display-block
+{
+	display: block !important;
+}
+
+.display-inline
+{
+	display: inline !important;
+}
+
+.display-none
+{
+	display: none !important;
+}
+
+.float-left
+{
+	float: left !important;
+}
+
+.float-right
+{
+	float: right !important;
+}
+
+.text-align-center
+{
+    text-align: center;
+}
+
+.text-align-right
+{
+    text-align: right;
+}
+
+.text-align-left
+{
+    text-align: left;
+}

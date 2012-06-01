@@ -1,0 +1,48 @@
+/* Font reset because extjs is not too painful to change fonts on
+   a component by component basis */
+* {
+	/* Make the non padded part the actual content; exclude padding and border
+	 * dimensions when calculating the height of the container.
+	 */
+	box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+html, body
+{
+    font-size: 16px;
+    font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #333333;
+	height: 100%;
+}
+
+table, td
+{
+	border:0;
+}
+
+a
+{
+	color: #0066cc;
+	text-decoration: none;
+}
+
+a:hover
+{
+    color: #0069ba;
+    text-shadow: #0090ff 0px 0px 2px;
+}
+
+table, td
+{
+	border:0;
+}
+

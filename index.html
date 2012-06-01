@@ -1,58 +1,39 @@
 <!DOCTYPE html>
-<html>
 
-  <head>
+<html>
+<head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="jsCompiler : A Visual Studio extension for Google Closure Compiler" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link href="lib/css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/application.css" rel="stylesheet" type="text/css" />
+    <link href="lib/jCapsule/ui/css/resets.css" rel="stylesheet" type="text/css" />
+    <link href="lib/jCapsule/ui/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="lib/jCapsule/ui/css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="lib/jCapsule/ui/css/menu.theme.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="lib/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
     <title>jsCompiler</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/MiguelCastillo/jsCompiler">View on GitHub</a>
-
-          <h1 id="project_title">jsCompiler</h1>
-          <h2 id="project_tagline">A Visual Studio extension for Google Closure Compiler</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/MiguelCastillo/jsCompiler/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/MiguelCastillo/jsCompiler/tarball/master">Download this project as a tar.gz file</a>
-            </section>
+</head>
+<body class="application">
+    <div class="header full-width">
+        <header id="header_content" class="layout-content content">
+            <a id="forkme_banner" href="https://github.com/MiguelCastillo/jsCompiler">View on GitHub</a>
+            <h1 id="project_title">jsCompiler</h1>
+            <h2 id="project_tagline">A Visual Studio extension for Google Closure Compiler</h2>
+            <section id="nav_menu"></section>
         </header>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>jsCompiler</h1>
-		<p>A Visual Studio extension for Google Closure Compiler. It primarily allows you to configure Google Closure Compiler to process your JavaScript, display the generated JavaScript and report errors and warnings found in your JavaScript code.</p>
-
-		<h1>Downloads</h1>
-		<p>Get latest build: <a href="https://github.com/MiguelCastillo/jsCompiler/downloads/jsCompiler.vs10-latest.vsix">Latest</a></p>
-
-		<h1>License</h1>
-		<p>Dual licensed under the MIT or GNU General Public License (GPL) Version 2, whichever makes sense for your project.
-		<br><a href="https://github.com/MiguelCastillo/jsCompiler/blob/master/MIT-LICENSE.txt">MIT</a>
-		<br><a href="https://github.com/MiguelCastillo/jsCompiler/blob/master/GPLv2-LICENSE.txt">GPL v2</a></p>
-      </section>
+    <div class="body full-width">
+        <section id="main_content" class="layout-content content"></section>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">jsCompiler maintained by <a href="https://github.com/MiguelCastillo">MiguelCastillo</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div class="footer full-width">
+        <footer id="footer_content" class="layout-content content">
+            <div class="text-align-center">Copyright &copy; 2012 <a href="https://github.com/MiguelCastillo">MiguelCastillo</a></div>
+            <div class="text-align-center">Icons by <a href="http://somerandomdude.com/work/iconic/">Iconic</a></div>
+        </footer>
     </div>
-
-    
-
-  </body>
+</body>
 </html>

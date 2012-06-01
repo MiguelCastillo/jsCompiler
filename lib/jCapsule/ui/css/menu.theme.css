@@ -1,0 +1,23 @@
+﻿.menu,
+.menu li > ul
+{
+	background: none #dddddd;
+}
+
+.menu li > ul
+{
+	border: 1px solid #999999;
+}
+
+.menu li > a
+{
+	color: #0066cc;
+}
+
+.menu li > a:hover,
+.menu > li:hover,
+.menu ul > li:hover
+{
+	background: none no-repeat 0 0 #ECF2FB;
+}
+
