@@ -29,6 +29,7 @@
 
 .application > .body
 {
+    height: 90%;
     color: #424242;
     width: 100%;
     background: url("../lib/img/page-bg.png") repeat center top #f6f6f6;
@@ -62,8 +63,15 @@
     padding: 1em;
 }
 
+
+.application > .body > .content
+{
+    height: 100%;
+}
+
 #main_content
 {
+    height: inherit;
     overflow: hidden;
     font-size: 1.2em;
     padding: 40px;
