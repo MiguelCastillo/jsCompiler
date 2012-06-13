@@ -29,16 +29,22 @@
 	margin: 0px;
 }
 
-.menu li > ul:before
+.menu li > ul:before,
+.menu li.absolute-left > ul:before
 {
     position: absolute;
     top: -10px;
-    right: 10px;
+    left: 10px;
+    right: auto;
     display: inline-block;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid #eeeeee;
-    border-left: 10px solid transparent;
     content: '';
+}
+
+.menu li.absolute-right > ul:before
+{
+    top: -10px;
+    left: auto;
+    right: 10px;
 }
 
 .menu li:hover > ul
