@@ -9,16 +9,16 @@
     min-height: 100%;
     position: relative;
     padding: 217px 0 0 0;
-    background: none #28343b;
+    background: none #696969;
 }
 
-.application > .header
+.application > header
 {
     height: 217px;
     width: 100%;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     background: rgb(181,189,200); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(181,189,200,1)), color-stop(36%,rgba(130,140,149,1)), color-stop(100%,rgba(40,52,59,1))); /* Chrome,Safari4+ */
@@ -29,32 +29,34 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
 }
 
-.application > .body
+.application > section
 {
+    height: auto;
     width: 100%;
     position: relative;
     color: #424242;
-    background: none #fafafa;
+    background: url("../lib/img/page-bg.png") repeat center top #f6f6f6;
+    background: none #E5E5E5;
 }
 
-.application > .footer
+.application > footer
 {
     width: 100%;
     color: White;
 }
 
-.application > .footer .copyright
+footer p
 {
-    text-align: center;
+    color: #f2f2f2;
 }
 
-.application > .footer .copyright a
+footer a
 {
     color: White;
     text-decoration: underline;
 }
 
-.application > .footer .copyright a:hover
+footer a:hover
 {
     color: #43adff;
     text-shadow: #0090ff 0px 0px 2px;
@@ -82,6 +84,8 @@
     padding: 40px;
     margin-left: 5px;
     margin-right: 5px;
+    background: none #fbfbfb;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 
 
