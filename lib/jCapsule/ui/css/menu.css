@@ -6,14 +6,14 @@
 {
     padding: 0 .5em;
     margin: 0px;
+    z-index: 1;
 }
 
 .menu,
 .menu li > ul
 {
 	display: none;
-	position: relative;
-	width: 20em;
+    width: 20em;
 	border-radius: 5px 5px 5px 5px;
 	-moz-border-radius: 5px 5px 5px 5px;
 	box-shadow: 0 2px 4px 0 #999999;
@@ -27,24 +27,26 @@
 	width: 20em;
 	padding: 0px;
 	margin: 0px;
+    z-index: 2;
 }
 
 .menu li > ul:before,
-.menu li.absolute-left > ul:before
+.menu li.absolute-left > ul:before,
+.menu li.float-left > ul:before
 {
     position: absolute;
-    top: -10px;
-    left: 10px;
+    top: -.5em;
+    left: .5em;
     right: auto;
     display: inline-block;
     content: '';
 }
 
-.menu li.absolute-right > ul:before
+.menu li.absolute-right > ul:before,
+.menu li.float-right > ul:before
 {
-    top: -10px;
     left: auto;
-    right: 10px;
+    right: .5em;
 }
 
 .menu li:hover > ul
@@ -91,39 +93,13 @@
 .menu.navbar > li
 {
     margin: 0 auto;
+    padding: 0px;
     display: inline-block;
-}
-
-.menu.navbar > li > ul,
-.menu.navbar li > ul.absolute-left
-{
-	left: 0px;
-	right: auto;
-	top: 2em;
-	border-radius: 0px 5px 5px 5px;
-	-moz-border-radius: 0px 5px 5px 5px;
-}
-
-.menu.navbar li > ul.absolute-right
-{
-	left: auto;
-	right: 0px;
-	border-radius: 5px 0px 5px 5px;
-	-moz-border-radius: 5px 0px 5px 5px;
-	direction: ltr;
-}
-
-.menu.navbar ul.absolute-right > li
-{
-	direction: rtl;
-}
-
-.menu.navbar > li
-{
     float: left;
+    height: 100%;
 }
 
-.menu.navbar.float-right > li
+.menu.navbar > li.float-right 
 {
     float: right;
 }
@@ -137,6 +113,32 @@
 {
     margin-right: .2em;
 }
+
+.menu.navbar > li > ul
+{
+	left: 0px;
+	right: auto;
+	top: 2em;
+	border-radius: 0px 5px 5px 5px;
+	-moz-border-radius: 0px 5px 5px 5px;
+}
+
+.menu.navbar li.absolute-right > ul,
+.menu.navbar li.float-right > ul
+{
+	left: auto;
+	right: 0px;
+	border-radius: 5px 0px 5px 5px;
+	-moz-border-radius: 5px 0px 5px 5px;
+	direction: ltr;
+}
+
+.menu.navbar li.absolute-right,
+.menu.navbar li.float-right
+{
+	direction: rtl;
+}
+
 
 /*clear fix for menu nav bar*/
 .menu.navbar:after
