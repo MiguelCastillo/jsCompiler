@@ -261,10 +261,10 @@
 .home .features > li
 {
     font-size: 1.1em;
-    color: #019CFF;
+    color: #7F9DB0;
     width: 33%;
     padding: .5em;
-    border-left: 1px dotted brown;
+    border-left: 1px dotted #A6A6A6;
     list-style-type: none;
 }
 
